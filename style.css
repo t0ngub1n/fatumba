@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher&family=Reggae+One&display=swap');
+
+.header_menu {
+    font: normal 20px Philosopher;
+    color: #faeedd;
+    margin-left: 300px;
+    margin-top: 56px;
+}
+header {
+    background: #ab274f;
+    padding-bottom: 56px;
+    width: 100%;
+    z-index: 100;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+.header_wrapper {
+    display: flex;
+    justify-content: center;
+}
+body {
+    background: #faeedd;
+}
+.header_logo {
+    cursor: pointer;
+    font: bold 48px 'Reggae One';
+    color: #faeedd;
+    margin-top: 30px;
+}
+.header_menu a {
+    margin-left: 60px;
+}
+.wrapper {
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+.intro {
+    background-image: url("background.jpg");
+    min-height: 100vh;
+    font-family: Philosopher;
+}
+.intro_wrapper {
+    min-height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.intro h1 {
+    font-size: 48px;
+    margin-bottom: 60px;
+}
+.intro p {
+    font-size: 24px;
+    max-width: 640px;
+}
+.about {
+    font-family: Philosopher;
+    background: #fff;
+}
+.about_wrapper {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.about h1 {
+    font-size: 48px;
+    margin-bottom: 60px;
+    margin-top: 100px;
+}
+.about p {
+    font-size: 24px;
+    max-width: 640px;
+    margin-bottom: 100px;
+}
+.tools {
+    background: #faeedd;
+    font-family: Philosopher;
+}
+.tools_wrapper {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+
+}
+.left_tools {
+    width: 445px;
+    margin-bottom: 100px;
+    margin-right: 100px;
+}
+.tools h3 {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-size: 28px;
+}
+.tools h4 {
+    font-size: 18px;
+    color: #ab274f;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+.tool_1 {
+    position: relative;
+}
+.tool_1::before {
+    content: "";
+    width: 100%;
+    height: 4px;
+    background-color: #c4c4c4;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.tool_1::after {
+    content: "";
+    width: 20%;
+    height: 4px;
+    background-color: #ab274f;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.tool_1::after:hover {
+    content: "20%";
+}
+.tool_2 {
+    position: relative;
+}
+.tool_2::before {
+    content: "";
+    width: 100%;
+    height: 4px;
+    background-color: #c4c4c4;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.tool_2::after {
+    content: "";
+    width: 40%;
+    height: 4px;
+    background-color: #ab274f;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.tool_3 {
+    position: relative;
+}
+.tool_3::before {
+    content: "";
+    width: 100%;
+    height: 4px;
+    background-color: #c4c4c4;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.tool_3::after {
+    content: "";
+    width: 25%;
+    height: 4px;
+    background-color: #ab274f;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.tool_4 {
+    position: relative;
+}
+.tool_4::before {
+    content: "";
+    width: 100%;
+    height: 4px;
+    background-color: #c4c4c4;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.tool_4::after {
+    content: "";
+    width: 15%;
+    height: 4px;
+    background-color: #ab274f;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.projects {
+    background-color: #fff;
+}
+.projects_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.projects_text {
+    text-align: center;
+    font-family: Philosopher;
+}
+.projects h1 {
+    font-size: 32px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.projects address {
+    font: 20px normal;
+    margin-bottom: 50px;
+    font-family: Philosopher;
+}
+.video {
+    margin-bottom: 100px;
+}
+.header_menu a {
+    text-decoration: none;
+    color: #faeedd;
+}
+.anchor::before { 
+    display: block; 
+    content: " "; 
+    height: 90px;
+    visibility: hidden; 
+    pointer-events: none;
+}
+.anchor::after { 
+    display: block; 
+    content: " "; 
+    height: 90px;
+    visibility: hidden; 
+    pointer-events: none;
+}
