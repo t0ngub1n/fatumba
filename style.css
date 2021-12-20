@@ -269,6 +269,9 @@ body {
     padding: 17px 20px;
     background: #fff;
 }
+.form, button, iframe {
+    border-radius: 5px;
+}
 .send_button {
     width: 190px;
     height: 55px;
@@ -293,3 +296,14 @@ body {
 .form, .send_wrapper, .send_button {
     font-family: Philosopher;
 }
+.gallery {
+    width: 100%;
+    display: flex;
+}
+.gallery_img {
+    width: 100%;
+}
+.lightzoom {
+    width: 25%;
+}
+
