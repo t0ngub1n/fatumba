@@ -4,7 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <title>Сайт Фатумба</title>
-    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <script src="jquery.js"></script>
 </head>
@@ -13,9 +12,7 @@
     <header>
         <div class="wrapper">
             <div class="header_wrapper">
-                <div class='header_logo'>
-                    FATUMBA
-                </div>
+                <div class='header_logo' id="logo">F<img src="gamepad.svg" alt="A">TUMB<img src="gamepad.svg" alt="A"></div>
                 <div class='header_menu'>
                     <a href="#top">ГЛАВНАЯ</a>
                     <a href="#about">О&nbsp;КОМПАНИИ</a>
@@ -35,10 +32,11 @@
                     </h1>
 
                     <p>
-                        Студия по разработке компьютерных игр "Фатумба" приветствует тебя на нашем сайте.
+                        Студия по разработке компьютерных игр &laquo;Фатумба&raquo; приветствует тебя на нашем сайте.
                         Наверняка ты уже знаком с нашими играми, раз зашёл сюда,
                         но всё-же позволь нам рассказать о себе, листай ниже.
                     </p>
+
                 </div>
             </div>
         </section>
@@ -50,7 +48,7 @@
                 <div class="about_wrapper">
                     <h1>О компании</h1>
                     <p>
-                        "Фатумба" уже 2 года на рынке мобильных игр.
+                        &laquo;Фатумба&raquo; уже 2 года на рынке мобильных игр.
                         Совместно с компанией CodeClass, мы разработали уже 4 игры:
                         Pirate's Andventure, Find the Dragon's Egg, Find the Gong и Quiz.
                         Суммарная аудитория наших игр превышает 1000 игроков!
@@ -60,6 +58,14 @@
                         Мы используем новейшие инструменты для разработки игр
                         и очень внимательно следим за последними тенденциями в гейм-деве.
                     </p>
+                </div>
+                <div class="platforms">
+                    <a href="https://store.steampowered.com/"><img src="steam.svg" alt="Steam"></a> <!-- Steam -->
+                    <a href="https://www.apple.com/ru"><img src="apple.svg" alt="iOS"></a> <!-- iOS -->
+                    <a href="https://www.android.com/"><img src="android.svg" alt="Android"></a> <!-- Android -->
+                    <a href="https://www.playstation.com/ru-ru/"><img src="playstation.svg" alt="PlayStation"></a> <!-- PlayStation -->
+                    <a href="https://www.xbox.com/ru-RU/"><img src="xbox.svg" alt="Xbox"></a> <!-- Xbox -->
+                    <a href="https://www.nintendo.ru/-/-Nintendo-Switch/Nintendo-Switch/Nintendo-Switch-1148779.html"><img src="nintendo-switch.svg" alt="Switch"></a> <!-- Nintendo Switch -->
                 </div>
             </div>
         </section>
@@ -92,8 +98,7 @@
                         <h4 class='tool_4'>Java + Android</h4>
                     </div>
                     <div class="right_tools">
-                        <img src="tools.PNG" alt="Unity, Unreal Engine 4, Blender, Python, Java, Android"
-                            class="tools_image">
+                        <img src="tools.PNG" alt="Unity, Unreal Engine 4, Blender, Python, Java, Android" class="tools_image">
                     </div>
                 </div>
             </div>
@@ -108,18 +113,12 @@
                         <h1>Наши проекты</h1>
                         <address>Трейлер игры &laquo;Find the Dragon's Egg&raquo;</address>
                     </div>
-                    <iframe class="video" width="740" height="480" src="https://www.youtube.com/embed/JuDq7u2S4eQ"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen>
+                    <iframe class="video" width="740" height="480" src="https://www.youtube.com/embed/JuDq7u2S4eQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
                     </iframe>
                     <div class="projects_text">
                         <address>Трейлер игры &laquo;Find the Gong!&raquo;</address>
                     </div>
-                    <iframe class="video" width="740" height="480" src="https://www.youtube.com/embed/fd1wuv3DIBg"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen>
+                    <iframe class="video" width="740" height="480" src="https://www.youtube.com/embed/fd1wuv3DIBg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
                     </iframe>
                 </div>
             </div>
@@ -170,8 +169,7 @@
                                 <input type="text" name="name" class="form2 form" placeholder="Ваше имя" required>
                                 <input type="email" name="email" class="form3 form" placeholder="Ваш e-mail" required>
                             </div>
-                            <textarea name="msg" cols="30" rows="10" class="form1 form" placeholder="Сообщение"
-                                required></textarea>
+                            <textarea name="msg" cols="30" rows="10" class="form1 form" placeholder="Сообщение" required></textarea>
                             <button class="send_button">
                                 ОТПРАВИТЬ
                             </button>
@@ -195,6 +193,7 @@
             viewTitle: true,
         })
     </script>
+    <script src="myscript.js"></script>
 </body>
 
 </html>
